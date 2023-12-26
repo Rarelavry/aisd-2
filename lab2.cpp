@@ -2,14 +2,12 @@
 #include <iostream>
 #include <cstdlib> 
 
-template<typename T>
-T evaluate(T x);
 
 int main() {
     Polynomial<float> poly1;
 
     poly1.push_tail(3.5, 3); 
-    poly1.push_tail(0, 2); 
+    poly1.push_tail(9, 2); 
     poly1.push_tail(-5.2, 1); 
     poly1.push_tail(2, 0);  
 
